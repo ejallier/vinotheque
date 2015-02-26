@@ -37,7 +37,7 @@
 
 	<header class="big-header text-center">
 		<div class="container">
-			<h1 class="mastoc">Ma Vinothèque</h1>
+			<h1 class="mastoc"><a href="index.php">Ma Vinothèque</a></h1>
 			<div class="text-center">
 				<a href="" class="btn btn-ghost login btn-lg">Login</a>
 			</div>
@@ -54,7 +54,9 @@
 			<p>Un exercice de PhP procédural</p>
 		</div>
 		<div class="row">
-
+			<div class="col-md-12">
+				<h1 class="page-header">Les trucs à faire</h1>
+			</div>
 
 			<div class="col-md-6">
 				<article>
@@ -75,8 +77,12 @@
 				</article>
 
 			</div>
-
+</div>
 <div class="row">
+
+			<div class="col-md-12">
+				<h1 class="page-header">Mais... Pourquoi le vin ?</h1>
+			</div>
 	<div class="col-md-3 text-center">
 		<div class="project">
 			<i class="glyphicon glyphicon-glass"></i>
@@ -104,15 +110,15 @@
 </div>
 
 		</div>
-	</div>
+
 </main>
 
-<footer>
+<footer class="big-footer">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4">CEFIM &copy; <?= date(Y) ?></div>
-			<div class="col-md-4"><div class="text-center">Vinothèque</div></div>
-			<div class="col-md-4"><div class="text-right">F. Ormateur</div></div>
+			<div class="text-center">CEFIM &copy; <?= date(Y) ?></div>
+			<div class="text-center">Vinothèque</div>
+			<div class="text-center">F. Ormateur</div>
 		</div>
 	</div>
 </footer>

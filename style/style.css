@@ -5,15 +5,18 @@
 html, body  {height: 100%; min-height: 100%}
 
 .big-header h1{
-	font-size: 6em;
+	font-size: 5em;
 	font-family: playball;
-	margin-top: 2em;
+	text-shadow: 0px  0px 5px  #000;
+}
 
+.big-header h1 a{
+	color : white;
 }
 
 .big-header{
-	padding-top : 3em;
-	height: 80%;
+padding-top: 60px;
+	height: 90%;
 	background: url(../img/bigpic.jpg) ;
 	background-size: cover;
 	color : white
@@ -41,3 +44,11 @@ html, body  {height: 100%; min-height: 100%}
 }
 
 .project {font-size: 5em;}
+
+
+.big-footer{
+	background: #333;
+	margin-top: .5em;
+	color: #eee;
+	padding :1em;
+}
