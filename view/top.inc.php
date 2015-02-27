@@ -22,11 +22,7 @@
     </div>
 
     <div id="nav-block" class="collapse navbar-collapse">
-    	<ul class="nav navbar-nav">
-    		<li><a href=""><i class="glyphicon glyphicon-book glyphicon-lg"></i> Liste des vins</a></li>
-    		<li><a href=""><i class="glyphicon glyphicon-pencil glyphicon-lg"></i> Ajouter un vin</a></li>
-			<li><a href=""><i class="glyphicon glyphicon-search glyphicon-lg"></i> Chercher le bon vin</a></li>
-    	</ul>
+		<?= menuGen($listePageFront, $pageNum); ?>
     </div>
 
 

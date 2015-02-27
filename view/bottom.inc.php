@@ -1,9 +1,9 @@
 <footer class="big-footer">
 	<div class="container">
 		<div class="row">
-			<div class="text-center">CEFIM &copy; <?= date('Y') ?></div>
-			<div class="text-center">Vinothèque</div>
-			<div class="text-center">F. Ormateur</div>
+			<div class="col-md-4 text-center">CEFIM &copy; <?= date('Y') ?></div>
+			<div class="col-md-4 text-center">Vinothèque</div>
+			<div class="col-md-4 text-center">F. Ormateur</div>
 		</div>
 	</div>
 </footer>
