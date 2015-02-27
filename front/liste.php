@@ -1,7 +1,6 @@
 <?php
 
-
-$pageNum = 0;
+$pageNum = 1;
 
 //include
 include("../inc/globalVar.inc.php");
@@ -9,8 +8,6 @@ include("../inc/functions.inc.php");
 
 //vues
 include("../view/top.inc.php");
-
-include("../view/bigHeader.inc.php");
 
 include("../view/home.inc.php");
 
