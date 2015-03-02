@@ -2,7 +2,7 @@
 //Paramêtre particuliers de la page
 
 $pageNum = 1;
-$pageScript = "<script src='../script/liste.js'></script>";
+$pageScript = "";
 
 
 //include infos
