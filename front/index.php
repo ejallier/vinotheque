@@ -2,6 +2,7 @@
 
 
 $pageNum = 0;
+$pageScript = "";
 
 //include
 include("../inc/globalVar.inc.php");
