@@ -22,7 +22,7 @@
     </div>
 
     <div id="nav-block" class="collapse navbar-collapse">
-		<?= menuGen($listePageFront, $pageNum); ?>
+		<?= (!isset($admin)) ? menuGen($listePageFront, $pageNum) : menuGen($listePageBack, $pageNum); ?>
     </div>
 
 

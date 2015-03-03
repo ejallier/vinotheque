@@ -33,7 +33,7 @@ define ("DB_NAME", "vin");
 		array(
 			"fichier" => "../back/index.php",
 			"nom" => "Administration",
-			"icone" => "user"
+			"icone" => "cog"
 		)
 	);
 
