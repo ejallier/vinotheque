@@ -10,8 +10,8 @@
     <div class="row">
       <div class="col-md-8 col-md-offset-2">
   			<div class="alert alert-warning">
-          <p><strong> Suppression Effectuée ! </strong> </p>
-          <p>Le vin a bien été supprimé. <a href="index.php" class='alert-link'>Retour</a></p>
+          <p><strong> ERREUR !</strong> </p>
+          <p>Le vin n'a pas pu étre ajouter. <a href="ajout.php" class='alert-link'>Retour</a></p>
         </div>
       </div>
     </div>

@@ -5,7 +5,7 @@ $nom = $_POST['nom'];
 $cepage = $_POST['cepage'];
 $region = $_POST['region'];
 $vigneron = $_POST['vigneron'];
-$aliment = $_POST['aliment'];
+//$aliment = $_POST['aliment'];
 $description = $_POST['description'];
 $prix = $_POST['prix'];
 $stock = $_POST['stock'];
@@ -18,8 +18,6 @@ $stock = $_POST['stock'];
 						cepage,
 						region,
 						idvigneron,
-
-						idaliment,
 						prix,
 						iddescription,
 						stock
@@ -29,7 +27,6 @@ $stock = $_POST['stock'];
 						:p2,
 						:p3,
 						:p4,
-						:p5,
 						:p6,
 						:p7,
 						:p8
@@ -43,7 +40,7 @@ $stock = $_POST['stock'];
 	$st->bindParam(':p2', $cepage);
 	$st->bindParam(':p3', $region);
 	$st->bindParam(':p4', $vigneron);
-	$st->bindParam(':p5', $aliment);
+	//$st->bindParam(':p5', $aliment);
 	$st->bindParam(':p6', $prix);
 	$st->bindParam(':p7', $description);
 	$st->bindParam(':p8', $stock);
